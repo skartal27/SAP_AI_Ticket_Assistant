@@ -1,0 +1,21 @@
+[
+  {
+    "tcode": "MIGO",
+    "module": "MM",
+    "process": "Warenbewegungen / Mal Hareketleri",
+    "purpose": "Wareneingang, Warenausgang, Umbuchungen erfassen und anzeigen.",
+    "typical_errors": [
+      "M7 021 - Defizit an freiem Bestand",
+      "M7 053 - Buchungsperiode gesperrt"
+    ]
+  },
+  {
+    "tcode": "MIRO",
+    "module": "MM",
+    "process": "Rechnungsprüfung / Fatura Girişi",
+    "purpose": "Eingehende Lieferantenrechnungen erfassen und prüfen.",
+    "typical_errors": [
+      "M8 082 - Saldo ist nicht null"
+    ]
+  }
+]

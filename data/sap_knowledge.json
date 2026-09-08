@@ -1,0 +1,17 @@
+[
+  {
+    "keywords": ["m7021", "m7 021", "defizit", "bestand", "freier bestand"],
+    "topic": "Bestandsdefizit (M7 021)",
+    "internal_policy": "Unternehmensrichtlinie Werk 1000: Umbuchungen aus dem Qualitätsprüfbestand (Bewegungsart 321) bedürfen stets der Freigabe durch QM-Leiter Herrn Schmidt. Bei Fehlmengen in Lagerort 0001 ist primär der Puffer-Lagerort 0002 via Transaktion ZMM_STOCK_MOVE zu prüfen."
+  },
+  {
+    "keywords": ["m8082", "m8 082", "saldo", "nicht null", "miro"],
+    "topic": "Saldoabweichung bei Rechnungsprüfung (M8 082)",
+    "internal_policy": "SOP Rechnungsprüfung: Betragstoleranzen bis 5,00 EUR werden automatisch ausgebucht. Bei ungeplanten Frachtkosten über 20,00 EUR muss der Beleg zwingend mit Vorfallsgrund 'FRT' vorerfasst (Parken) und der Einkauf (Frau Weber) informiert werden."
+  },
+  {
+    "keywords": ["m7053", "m7 053", "buchungsperiode", "mmpv", "mmrv"],
+    "topic": "Periodenverschiebung (M7 053)",
+    "internal_policy": "Finanzrichtlinie Buchungskreis 1000: Die Verschiebung der MM-Buchungsperiode mittels MMPV darf nur durch das zentrale FI-Team (E-Mail: sap-fi-admin@company.com) am ersten Werktag des Monats durchgeführt werden. Lokale Key-User besitzen hierfür keine Autorisierung."
+  }
+]

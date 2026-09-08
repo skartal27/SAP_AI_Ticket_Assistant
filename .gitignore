@@ -1,0 +1,18 @@
+# Sanal Ortam & Önbellek
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Hassas Bilgiler
+.env
+.streamlit/secrets.toml
+
+# Geçici & Ofis Dosyaları
+~$*
+*.tmp
+*.docx
+
+# Sistem Dosyaları
+.DS_Store
+Thumbs.db
