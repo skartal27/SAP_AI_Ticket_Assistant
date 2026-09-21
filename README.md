@@ -1,6 +1,6 @@
 # SATA - SAP MM AI Ticket & Diagnostic Assistant
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sap-ai-ticket-assistant.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sap-ai-ticket-assistant-sata.streamlit.app)
 [![SAP S/4HANA](https://img.shields.io/badge/SAP-S%2F4HANA%20MM-0073E6.svg)](https://www.sap.com/)
 [![Compliance](https://img.shields.io/badge/EU%20AI%20Act-Compliant%20(HitL)-green.svg)]()
 
@@ -32,9 +32,32 @@
                                               │ (Freigabe durch Consultant)
                                               ▼
                                  [ SAP ERP Action Advice ]
+```
+
+---
 
 ## 🚀 Ausführung
 
 1. **Abhängigkeiten installieren:**
    ```bash
    pip install -r requirements.txt
+   ```
+
+2. **Konfiguration:**
+   Erstelle `.streamlit/secrets.toml`:
+   ```toml
+   GEMINI_API_KEY = "DEIN_API_SCHLÜSSEL"
+   ```
+
+3. **Anwendung starten:**
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 👨‍💻 Kontakt & Entwicklung
+
+**Mahmut Şahin**  
+*Zertifizierter SAP S/4HANA Berater (MM/SD)*  
+* Spezialisierung: SAP S/4HANA Logistik, Geschäftsprozessintegration & Enterprise AI Assistenzsysteme.
