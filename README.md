@@ -38,18 +38,3 @@
 1. **Abhängigkeiten installieren:**
    ```bash
    pip install -r requirements.txt
-Konfiguration:
-Erstelle .streamlit/secrets.toml:
-
-Ini, TOML
-GEMINI_API_KEY = "DEIN_API_SCHLÜSSEL"
-Anwendung starten:
-
-Bash
-streamlit run app.py
-👨‍💻 Kontakt & Entwicklung
-Mahmut Şahin
-
-Zertifizierter SAP S/4HANA Berater (MM/SD)
-
-Spezialisierung: SAP S/4HANA Logistik, Geschäftsprozessintegration & Enterprise AI Assistenzsysteme.
