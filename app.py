@@ -200,10 +200,23 @@ with st.sidebar:
         index=0
     )
     
-    gemini_api_key = st.text_input(
-        "Gemini API-Schlüssel:",
-        type="password",
-        help="Geben Sie hier Ihren Google AI Studio API-Schlüssel ein."
+    # Secrets'tan anahtarı güvenle çek
+    secret_key = ""
+    try:
+        if "GEMINI_API_KEY" in st.secrets:
+            secret_key = st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        pass
+
+    if secret_key:
+        gemini_api_key = secret_key
+        st.success("✅ Gemini API: Verbunden")
+    else:
+        gemini_api_key = st.text_input(
+            "Gemini API-Schlüssel:",
+            type="password",
+            help="Geben Sie hier Ihren Google AI Studio API-Schlüssel ein."
+        
     )
     
     output_language = st.selectbox(
